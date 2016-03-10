@@ -10,6 +10,9 @@ This example is a demo to control the Star Wars BB-8 lifesize robot that I am bu
 ### ESP8266 Pin Map
 ![Alt text](/ESP8266/ESP8266 Pin Map.png?raw=true "ESP8266 Pin Map")
 
+### TouchOSC Interface
+![Alt text](/TouchOSC/preview.png?raw=true "TouchOSC Interface")
+
 This was designed using TouchOSC app as remote control. This is a not a free app but is cheap and works great! It´s available for IOS and Android.
 
 TouchOSC has a layout editor for PC. Download and install from http://hexler.net/software/touchosc (go down to the download section)
