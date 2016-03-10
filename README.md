@@ -13,9 +13,12 @@ This example is a demo to control the Star Wars BB-8 lifesize robot that I am bu
 ### TouchOSC Interface
 ![Alt text](/TouchOSC/preview.png?raw=true "TouchOSC Interface")
 
+### OSC Connection Settings
+![Alt text](/TouchOSC/setup.png?raw=true "OSC Connection Settings")
+
 This was designed using TouchOSC app as remote control. This is a not a free app but is cheap and works great! It´s available for IOS and Android.
 
-TouchOSC has a layout editor for PC. Download and install from http://hexler.net/software/touchosc (go down to the download section)
-Open the layout BB-8.touchosc on the editor and follow the instructions to send the layout to your smartphone/table using your wifi network.
+TouchOSC has a layout editor for PC. Download and install from http://hexler.net/software/touchosc (go down to the download section).
+Open the layout BB-8.touchosc on the editor and follow the instructions to send the layout to your smartphone/table using your WiFi network.
 
 The code for setting up the AP from B-ROBOT https://github.com/jjrobots/B-ROBOT
