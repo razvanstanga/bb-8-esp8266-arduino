@@ -1,4 +1,4 @@
-# BB-8 ESP8266/TouchOSC/Arduino WiFI Robot Remote Control
+# BB-8 ESP8266/TouchOSC/Arduino WiFi Robot Remote Control
 
 ## Use your existing smartphone/tablet to control a a robot like BB-8 with TouchOSC.
 
@@ -17,3 +17,5 @@ This was designed using TouchOSC app as remote control. This is a not a free app
 
 TouchOSC has a layout editor for PC. Download and install from http://hexler.net/software/touchosc (go down to the download section)
 Open the layout BB-8.touchosc on the editor and follow the instructions to send the layout to your smartphone/table using your wifi network.
+
+The code for setting up the AP from B-ROBOT https://github.com/jjrobots/B-ROBOT
