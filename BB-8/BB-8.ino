@@ -1,4 +1,5 @@
 #include <OSCMessage.h>
+#include <OSCBundle.h>
 
 #include <SLIPEncodedSerial.h>
 SLIPEncodedSerial SLIPSerial(Serial1);
@@ -84,9 +85,31 @@ void setup(void)
   Serial.println("I am online and waiting commands ...");
 }
 
+long time;
+int ledState = 0;
+
 void loop() {
   int size;
   int n;
+
+  if (time < millis()) {
+    Serial.println("Sending to TouchOSD");
+    time = millis() + 3000;
+
+    // Example send single message
+    /*OSCMessage msg("/1/battery1/");
+    msg.add((float) 0.33);
+    msg.send(SLIPSerial);
+    msg.empty();*/
+
+    // Example send multiple messages/bundle
+    OSCBundle bndl;
+    bndl.add("/1/battery1").add(0.33);
+    bndl.add("/1/battery2").add(0.66);
+    bndl.add("/1/throttle").add(0.5);
+    bndl.send(SLIPSerial); 
+    bndl.empty();
+  }
 
   if ( (size = SLIPSerial.available()) > 0)
   {
