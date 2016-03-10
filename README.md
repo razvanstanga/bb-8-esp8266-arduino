@@ -2,7 +2,7 @@
 
 ## Use your existing smartphone/tablet to control a a robot like BB-8 with TouchOSC.
 
-This example is a demo to control the Star Wars BB-8 lifesize robot that I am building but can be adaptable to control any robot.
+This example is a demo to control the Star Wars BB-8 lifesize robot that I am building but can be adapted to control any robot.
 
 ### Connect ESP8266 to Leonardo
 ![Alt text](/ESP8266/ESP8266 Leonardo.png?raw=true "Connect ESP8266 to Leonardo")

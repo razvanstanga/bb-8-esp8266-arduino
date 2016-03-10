@@ -190,9 +190,9 @@ void routeP1Action2(OSCMessage &msg, int addressOffset) {
   Serial.println("Match: /1/push2");
 }
 void routeP1Action3(OSCMessage &msg, int addressOffset) {
-  Serial.println("Match: /1/action3");
+  Serial.println("Match: /1/push3");
 }
 void routeP1Action4(OSCMessage &msg, int addressOffset) {
-  Serial.println("Match: /1/action4");
+  Serial.println("Match: /1/push4");
 }
 
