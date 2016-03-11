@@ -22,3 +22,5 @@ TouchOSC has a layout editor for PC. Download and install from http://hexler.net
 Open the layout BB-8.touchosc on the editor and follow the instructions to send the layout to your smartphone/table using your WiFi network.
 
 The code for setting up the AP from B-ROBOT https://github.com/jjrobots/B-ROBOT
+
+Tested on Arduino Leonardo/Micro.
